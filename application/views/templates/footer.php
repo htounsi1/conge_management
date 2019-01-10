@@ -12,7 +12,7 @@
         <div id="push"></div>
     </div><!-- /wrap -->
     <!-- FOOTER -->
-    <div class="row" id="footer">
+<!--    <div class="row" id="footer">
         <div class="span8 pull-left" id="rum_info">
             &nbsp;
         </div>
@@ -23,7 +23,7 @@
               } ?>
           &nbsp;v0.6.5&nbsp;&copy;2014-2018 Benjamin BALET
         </div>
-    </div>
+    </div>-->
     </div>
     <!--Minimal profiling info //-->
 <?php

@@ -22,11 +22,11 @@
 <?php }?>
 
 <style>
-    body {
-        background-image:url('<?php echo base_url();?>assets/images/login-background.jpg');
+/*    body {
+        background-color:red;
         background-size: 100% 100%;
         background-repeat: no-repeat;
-    }
+    }*/
     
     .vertical-center {
         min-height: 90%;  /* Fallback for browsers not supporting vh unit */
@@ -49,7 +49,7 @@
             <div class="span6 form-box">
                 <div class="row-fluid">
                     <div class="span6">
-<h2><?php echo lang('session_login_title');?><?php echo $help;?></h2>
+<!--<h2><?php echo lang('session_login_title');?><?php echo $help;?></h2>-->
 
 <?php echo $flash_partial_view;?>
 
@@ -72,12 +72,12 @@ $languages = $this->polyglot->nativelanguages($this->config->item('languages'));
     </select>
     <?php } ?>
     <label for="login"><?php echo lang('session_login_field_login');?></label>
-    <input type="text" class="input-medium" name="login" id="login" value="<?php echo (ENVIRONMENT=='demo')?'bbalet':set_value('login'); ?>" required />
+    <input type="text" class="input-medium" name="login" id="login"  required />
     <input type="hidden" name="CipheredValue" id="CipheredValue" />
 </form>
-    <input type="hidden" name="salt" id="salt" value="<?php echo $salt; ?>" />
+    <input type="hidden"  name="salt" id="salt" value="<?php echo $salt; ?>" />
     <label for="password"><?php echo lang('session_login_field_password');?></label>
-    <input class="input-medium" type="password" name="password" id="password" value="<?php echo (ENVIRONMENT=='demo')?'bbalet':''; ?>" /><br />
+    <input class="input-medium" type="password" name="password" id="password"  /><br />
     <br />
     <button id="send" class="btn btn-primary"><i class="icon-user icon-white"></i>&nbsp;<?php echo lang('session_login_button_login');?></button>
     <?php if ($this->config->item('oauth2_enabled') == TRUE) { ?>
@@ -93,17 +93,19 @@ $languages = $this->polyglot->nativelanguages($this->config->item('languages'));
     <textarea id="pubkey" style="visibility:hidden;"><?php echo $public_key; ?></textarea>
                 </div>
                 <div class="span6" style="height:100%;">
+                    
                     <div class="row-fluid">
                         <div class="span12">
                             <img src="<?php echo base_url();?>assets/images/logo_simple.png">
                         </div>
                     </div>
+                    
                     <div class="row-fluid"><div class="span12">&nbsp;</div></div>
-                    <div class="row-fluid">
+<!--                    <div class="row-fluid">
                         <div class="span12">
                             <span style="font-size: 250%; font-weight: bold; line-height: 100%;"><center><?php echo lang('Leave Management System');?></center></span>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

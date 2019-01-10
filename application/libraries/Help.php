@@ -39,10 +39,7 @@ class Help {
      */
     public function create_help_link($page) {
         if (lang($page) != "") {
-            return '&nbsp;' .
-                      '<a href="' . lang($page) . '"' .
-                      ' title="' . lang('global_link_tooltip_documentation') . '"' .
-                      ' target="_blank" rel="nofollow"><i class="icon-question-sign"></i></a>';
+            return '';
         } else {
             return '';
         }        

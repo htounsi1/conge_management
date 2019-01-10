@@ -1,4 +1,6 @@
-<h1>Gestion des congés et des heures supplémentaires</h1>
+
+<h1>Description Management Reply </h1>
+<!--<h1>Gestion des congés et des heures supplémentaires</h1>
 
 <p>Bienvenue dans Jorani. N'hésitez pas à cliquer sur l'icône d'aide en ligne de chacun des écrans (<i class="icon-question-sign"></i>). Cela vous donnera accès à la documentation en Français de la fonctionnalité que vous êtes en train d'utiliser.</p>
 
@@ -30,4 +32,4 @@
 <ul>
     <li><a href="http://fr.jorani.org/utilisation/prise-en-main.html" target="_blank">Un tutoriel de prise en main</a>.</li>
     <li><a href="http://fr.jorani.org/utilisation/guide-de-demarrage-rapide.html" target="_blank">Le guide de ce qu'il faut configurer</a> pour commencer.</li>
-</ul>
+</ul>-->
